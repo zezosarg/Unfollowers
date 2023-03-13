@@ -18,16 +18,16 @@ for i in range(len(following_list)-1):
 	if following_list[i+1][:-2] in following_list[i] and following_list[i+1]!='·\n':
 		following.append(following_list[i+1])
 
-c=0
-for i in following:
-	if i not in followers:
-		print(i)
-		c+=1
-print('UNFOLLOWERS ========================= ',c,'\n')
+unfollower_count = 0
+for followee in following:
+	if followee not in followers:
+		print(followee)
+		unfollowere_count += 1
+print('UNFOLLOWERS ========================= ',unfollower_count,'\n')
 
-c=0
-for i in followers:
-	if i not in following:
-		print(i)
-		c+=1
-print('UNFOLLOWED ========================= ',c)
+unfollowed_count = 0
+for follower in followers:
+	if follower not in following:
+		print(follower)
+		unfollowed_count += 1
+print('UNFOLLOWED ========================= ',unfollowed_count)
