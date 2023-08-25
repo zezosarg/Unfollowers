@@ -12,7 +12,7 @@ password = ""
 
 # setup
 options = Options()
-# options.headless = True
+options.headless = True
 driver = webdriver.Firefox(options = options)
 driver.get("https://www.instagram.com/")
 
@@ -37,10 +37,14 @@ WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//a[@href
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//a[@href='/" + username + "/followers/?next=%2F']"))).click()
 
 # scrape followers
-followers_html = driver.find_elements(By.XPATH, "//span[@class='_aacl _aaco _aacw _aacx _aad7 _aade']")
+time.sleep(5) # temporary fix, find a way for something to be clickable
+driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+followers_html = driver.find_elements(By.CLASS_NAME, "_aacl")
 followers = []
 for i in followers_html:
-    followers.append(followers_html.text)
+    followers.append(i.text)
 
 for i in followers:
     print(i)
+
+driver.close()

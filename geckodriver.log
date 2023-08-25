@@ -11686,3 +11686,462 @@ WARNING: At least one completion condition is taking too long to complete. Condi
 [Parent 41002, IPC I/O Parent] WARNING: process 41075 exited on signal 9: file /build/firefox-TQp5hg/firefox-116.0+build2/ipc/chromium/src/base/process_util_posix.cc:265
 WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"PlacesShutdownProgress":5},"filename":"/build/firefox-TQp5hg/firefox-116.0+build2/toolkit/components/places/Database.cpp","lineNumber":467,"stack":""}] Barrier: profile-before-change
 1691102632341	Marionette	INFO	Stopped listening on port 46815
+1692880437799	geckodriver	INFO	Listening on 127.0.0.1:58781
+1692880438273	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "38067" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKbgiAb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692880444352	Marionette	INFO	Marionette enabled
+1692880444688	Marionette	INFO	Listening on port 33769
+Read port: 33769
+WebDriver BiDi listening on ws://127.0.0.1:38067
+1692880445402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+DevTools listening on ws://127.0.0.1:38067/devtools/browser/3135f7dc-3fad-40d7-9278-912474278605
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692880492560	Marionette	INFO	Stopped listening on port 33769
+1692880514274	geckodriver	INFO	Listening on 127.0.0.1:46025
+1692880514751	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "60757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAmA4Wf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692880517770	Marionette	INFO	Marionette enabled
+1692880517851	Marionette	INFO	Listening on port 44985
+Read port: 44985
+WebDriver BiDi listening on ws://127.0.0.1:60757
+1692880518680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60757/devtools/browser/99e3a392-e21d-48ff-8996-727437b070b1
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iwWC4/yS/l/makehaste_jhash/2pO03ErLqc_.js?_nc_x=Ij3Wp8lg5Kz, line 895: Script terminated by timeout at:
+h.canUseNavigatorBeacon@https://static.cdninstagram.com/rsrc.php/v3iwWC4/yS/l/makehaste_jhash/2pO03ErLqc_.js?_nc_x=Ij3Wp8lg5Kz:895:4224
+B@https://static.cdninstagram.com/rsrc.php/v3iwWC4/yS/l/makehaste_jhash/2pO03ErLqc_.js?_nc_x=Ij3Wp8lg5Kz:895:1580
+h._initialize/<@https://static.cdninstagram.com/rsrc.php/v3iwWC4/yS/l/makehaste_jhash/2pO03ErLqc_.js?_nc_x=Ij3Wp8lg5Kz:895:4851
+d@https://static.cdninstagram.com/rsrc.php/v3iwWC4/yS/l/makehaste_jhash/2pO03ErLqc_.js?_nc_x=Ij3Wp8lg5Kz:896:158
+
+1692880569758	Marionette	INFO	Stopped listening on port 44985
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+1692881712246	geckodriver	INFO	Listening on 127.0.0.1:54405
+1692881712254	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "34833" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3bIJUP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692881714670	Marionette	INFO	Marionette enabled
+1692881714738	Marionette	INFO	Listening on port 43569
+WebDriver BiDi listening on ws://127.0.0.1:34833
+Read port: 43569
+1692881716837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:34833/devtools/browser/2bdef48d-dfbf-4ef3-868f-df852ff4096c
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692881915641	geckodriver	INFO	Listening on 127.0.0.1:34459
+1692881915648	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "54705" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebZILLO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692881920784	Marionette	INFO	Marionette enabled
+1692881920854	Marionette	INFO	Listening on port 38959
+WebDriver BiDi listening on ws://127.0.0.1:54705
+Read port: 38959
+Read port: 38959
+1692881924129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54705/devtools/browser/80d178f4-920e-44a8-8ebf-fb6dea0eac37
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692882013138	geckodriver	INFO	Listening on 127.0.0.1:49177
+1692882013605	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "33785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilethaG5m"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692882016795	Marionette	INFO	Marionette enabled
+1692882016867	Marionette	INFO	Listening on port 46085
+WebDriver BiDi listening on ws://127.0.0.1:33785
+Read port: 46085
+1692882018157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 757))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+DevTools listening on ws://127.0.0.1:33785/devtools/browser/c0d5124c-dd26-4218-bc67-c9d992cda43e
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692882429459	geckodriver	INFO	Listening on 127.0.0.1:39571
+1692882429473	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "60315" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWCDmUf"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692882434212	Marionette	INFO	Marionette enabled
+1692882434314	Marionette	INFO	Listening on port 39459
+WebDriver BiDi listening on ws://127.0.0.1:60315
+Read port: 39459
+Read port: 39459
+1692882437382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60315/devtools/browser/7484cf9d-ee3e-4fb3-a1ae-86675314d8f0
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+[Parent 43366, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /build/firefox-WBqX60/firefox-116.0.3+build2/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:43366): GLib-GObject-CRITICAL **: 16:08:46.218: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 43366, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /build/firefox-WBqX60/firefox-116.0.3+build2/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:43366): GLib-GObject-CRITICAL **: 16:08:46.219: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Parent 43366, Main Thread] WARNING: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed: 'glib warning', file /build/firefox-WBqX60/firefox-116.0.3+build2/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:43366): GLib-GObject-CRITICAL **: 16:08:46.219: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+1692883038374	geckodriver	INFO	Listening on 127.0.0.1:53233
+1692883038491	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "36893" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyPzOLE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692883042221	Marionette	INFO	Marionette enabled
+1692883042397	Marionette	INFO	Listening on port 44377
+Read port: 44377
+WebDriver BiDi listening on ws://127.0.0.1:36893
+1692883043186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:36893/devtools/browser/1f561550-5d86-4475-b8c3-a92bcb5155b6
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692883636612	geckodriver	INFO	Listening on 127.0.0.1:49887
+1692883637010	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "57975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTmrojY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692883644524	Marionette	INFO	Marionette enabled
+1692883644811	Marionette	INFO	Listening on port 34559
+WebDriver BiDi listening on ws://127.0.0.1:57975
+Read port: 34559
+Read port: 34559
+Read port: 34559
+1692883647201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57975/devtools/browser/2799bdcd-f928-40d0-96ee-eb1bc8a332de
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692883693627	geckodriver	INFO	Listening on 127.0.0.1:42359
+1692883693633	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "41443" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDL0mKc"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692883707379	Marionette	INFO	Marionette enabled
+1692883707456	Marionette	INFO	Listening on port 39809
+WebDriver BiDi listening on ws://127.0.0.1:41443
+Read port: 39809
+Read port: 39809
+Read port: 39809
+Read port: 39809
+Read port: 39809
+1692883712355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+DevTools listening on ws://127.0.0.1:41443/devtools/browser/cfeb6c12-b269-48fa-b642-20d469b96513
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692883816199	geckodriver	INFO	Listening on 127.0.0.1:48799
+1692883816652	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "59377" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJ0pWFt"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692883821805	Marionette	INFO	Marionette enabled
+1692883821876	Marionette	INFO	Listening on port 40639
+WebDriver BiDi listening on ws://127.0.0.1:59377
+Read port: 40639
+1692883824709	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59377/devtools/browser/9df38193-6b7b-495e-9428-a9a4c5c2aae1
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692885193426	geckodriver	INFO	Listening on 127.0.0.1:50333
+1692885193813	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "38963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoNi1by"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692885200689	Marionette	INFO	Marionette enabled
+1692885201618	Marionette	INFO	Listening on port 34307
+WebDriver BiDi listening on ws://127.0.0.1:38963
+Read port: 34307
+Read port: 34307
+1692885205065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:38963/devtools/browser/b92d32c8-47f5-48e8-b7bb-e1796ebb2299
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692886085027	geckodriver	INFO	Listening on 127.0.0.1:46541
+1692886085036	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "39481" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuxsckr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692886087465	Marionette	INFO	Marionette enabled
+1692886087555	Marionette	INFO	Listening on port 41547
+WebDriver BiDi listening on ws://127.0.0.1:39481
+Read port: 41547
+1692886089779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:39481/devtools/browser/df2f46fc-ae73-4c21-b8ed-7e07766d3593
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+console.error: (new TypeError("linkMap is undefined", "resource://gre/modules/NewTabUtils.sys.mjs", 2003))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692886155031	geckodriver	INFO	Listening on 127.0.0.1:46153
+1692886155512	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58563" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaX0ToI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692886160461	Marionette	INFO	Marionette enabled
+1692886160553	Marionette	INFO	Listening on port 43913
+WebDriver BiDi listening on ws://127.0.0.1:58563
+Read port: 43913
+Read port: 43913
+1692886163659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 757))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+DevTools listening on ws://127.0.0.1:58563/devtools/browser/267bec1c-a1f7-46ec-b937-124e542e4f53
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 638))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yH/l/en_US/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ieCg4/yR/l/makehaste_jhash/Oa_68FbxEku.js?_nc_x=Ij3Wp8lg5Kz, line 124: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1692886193113	Marionette	INFO	Stopped listening on port 43913
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3/yY/r/Bm9vTomudwE.js?_nc_x=Ij3Wp8lg5Kz, line 223: Script terminated by timeout at:
+Y/P<@https://static.cdninstagram.com/rsrc.php/v3/yY/r/Bm9vTomudwE.js?_nc_x=Ij3Wp8lg5Kz:223:3448
+
+console.error: services.settings: 
+  Message: StorageError: Storage error: Error: IndexedDB: main/devtools-compatibility-browsers list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:575:17
+
+console.error: (new Error("IndexedDB: main/quicksuggest getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+mesa: for the --global-isel-abort option: may only occur zero or one times!
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
